@@ -11,6 +11,9 @@
         android:label="fragment_selection_"
         tools:layout="@layout/fragment_selection_" >
         <action
+            android:id="@+id/action_selection_Fragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
             android:id="@+id/action_selection_Fragment_to_listMusicOffFragment"
             app:destination="@id/listMusicOffFragment" />
     </fragment>
@@ -27,6 +30,29 @@
             app:destination="@id/signUpFragment" />
     </fragment>
     <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.midterm.musicapp.View.mainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_listMusicFragment"
+            app:destination="@id/listMusicFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listMusicFragment"
+        android:name="com.midterm.musicapp.View.ListMusicFragment"
+        android:label="fragment_list_music"
+        tools:layout="@layout/fragment_list_music" >
+        <action
+            android:id="@+id/action_listMusicFragment_to_playFragment"
+            app:destination="@id/playFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playFragment"
+        android:name="com.midterm.musicapp.View.PlayFragment"
+        android:label="fragment_play"
+        tools:layout="@layout/fragment_play" />
+    <fragment
         android:id="@+id/signUpFragment"
         android:name="com.midterm.musicapp.View.SignUpFragment"
         android:label="fragment_sign_up"
@@ -36,4 +62,6 @@
         android:name="com.midterm.musicapp.View.ListMusicOffFragment"
         android:label="fragment_list_music_off"
         tools:layout="@layout/fragment_list_music_off" />
+
+
 </navigation>
