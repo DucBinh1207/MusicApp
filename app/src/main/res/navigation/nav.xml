@@ -35,5 +35,14 @@
         android:id="@+id/listMusicOffFragment"
         android:name="com.midterm.musicapp.View.ListMusicOffFragment"
         android:label="fragment_list_music_off"
-        tools:layout="@layout/fragment_list_music_off" />
+        tools:layout="@layout/fragment_list_music_off" >
+        <action
+            android:id="@+id/action_listMusicOffFragment_to_playMusicOffFragment"
+            app:destination="@id/playMusicOffFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playMusicOffFragment"
+        android:name="com.midterm.musicapp.View.PlayMusicOffFragment"
+        android:label="fragment_play_music_off"
+        tools:layout="@layout/fragment_play_music_off" />
 </navigation>
