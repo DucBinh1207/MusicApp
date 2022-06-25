@@ -1,5 +1,6 @@
 package com.midterm.musicapp.View;
 
+import android.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,7 +8,7 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
+
 import androidx.navigation.Navigation;
 
 import com.midterm.musicapp.R;
@@ -42,7 +43,7 @@ public class Selection_Fragment extends Fragment {
         Online.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Navigation.findNavController(v).navigate(R.id.listMusicOffFragment);
+                Navigation.findNavController(v).navigate(R.id.mainFragment);
             }
         });
         Offline.setOnClickListener(new View.OnClickListener() {
