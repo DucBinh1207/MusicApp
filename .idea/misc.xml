@@ -78,6 +78,13 @@
         <entry key="..\:/Users/thang/OneDrive/Desktop/mobi/MusicApp/app/src/main/res/drawable/ic_baseline_repeat_24.xml" value="0.1" />
         <entry key="..\:/Users/thang/OneDrive/Desktop/mobi/MusicApp/app/src/main/res/drawable/ic_baseline_repeat_24_check.xml" value="0.1" />
         <entry key="..\:/Users/thang/OneDrive/Desktop/mobi/MusicApp/app/src/main/res/drawable/ic_baseline_shuffle_24_clicked.xml" value="0.1" />
+        <entry key="..\:/Users/thang/OneDrive/Desktop/mobi/MusicApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/thang/OneDrive/Desktop/mobi/MusicApp/app/src/main/res/layout/fragment_list_music_off.xml" value="0.25" />
+        <entry key="..\:/Users/thang/OneDrive/Desktop/mobi/MusicApp/app/src/main/res/layout/fragment_login.xml" value="0.25" />
+        <entry key="..\:/Users/thang/OneDrive/Desktop/mobi/MusicApp/app/src/main/res/layout/fragment_play_music_off.xml" value="0.25" />
+        <entry key="..\:/Users/thang/OneDrive/Desktop/mobi/MusicApp/app/src/main/res/layout/fragment_selection_.xml" value="0.25" />
+        <entry key="..\:/Users/thang/OneDrive/Desktop/mobi/MusicApp/app/src/main/res/layout/fragment_sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/thang/OneDrive/Desktop/mobi/MusicApp/app/src/main/res/layout/item_music_off.xml" value="0.25" />
         <entry key="..\:/Users/thang/OneDrive/Desktop/mobi/MusicApp/app/src/main/res/layout/toolbar.xml" value="0.10648148148148148" />
       </map>
     </option>
