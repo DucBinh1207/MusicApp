@@ -1,9 +1,7 @@
 package com.midterm.musicapp.View;
 
 
-
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,7 +15,6 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.Navigation;
 
-import com.midterm.musicapp.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.FirebaseApp;
@@ -25,6 +22,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.midterm.musicapp.R;
 
 public class LoginFragment extends Fragment {
 
@@ -108,7 +106,7 @@ public class LoginFragment extends Fragment {
                         if(task.isSuccessful()){
                             Navigation.findNavController(getView()).navigate(R.id.selection_Fragment);
                         }else{
-                            Navigation.findNavController(getView()).navigate(R.id.selection_Fragment);
+                            //Navigation.findNavController(getView()).navigate(R.id.selection_Fragment);
                         }
                     }
                 });
